@@ -12,6 +12,8 @@ while executar:
     if operador == "5":
         print("Obrigado! ")
         executar = False
+    elif operador > "5":
+        print("Valor incorreto! ")
     else:
         valor1 = int(input("Qual é o primeiro valor?: "))
         valor2 = int(input("Qual é o segundo valor?: "))
